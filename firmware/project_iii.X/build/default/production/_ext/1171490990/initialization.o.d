@@ -1,7 +1,8 @@
 build/default/production/_ext/1171490990/initialization.o: \
  ../src/config/default/initialization.c \
  ../src/config/default/definitions.h \
- ../src/config/default/peripheral/nvmctrl/plib_nvmctrl.h \
+ ../src/config/default/peripheral/sercom/usart/plib_sercom3_usart.h \
+ ../src/config/default/peripheral/sercom/usart/plib_sercom_usart_common.h \
  ../src/config/default/device.h \
  ../src/packs/ATSAMD21J18A_DFP/samd21j18a.h \
  ../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h \
@@ -71,6 +72,7 @@ build/default/production/_ext/1171490990/initialization.o: \
  ../src/config/default/device_cache.h ../src/config/default/device.h \
  ../src/config/default/toolchain_specifics.h \
  ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h \
+ ../src/config/default/peripheral/nvmctrl/plib_nvmctrl.h \
  ../src/config/default/peripheral/evsys/plib_evsys.h \
  ../src/config/default/peripheral/port/plib_port.h \
  ../src/config/default/peripheral/clock/plib_clock.h \
@@ -79,7 +81,9 @@ build/default/production/_ext/1171490990/initialization.o: \
 
 ../src/config/default/definitions.h:
 
-../src/config/default/peripheral/nvmctrl/plib_nvmctrl.h:
+../src/config/default/peripheral/sercom/usart/plib_sercom3_usart.h:
+
+../src/config/default/peripheral/sercom/usart/plib_sercom_usart_common.h:
 
 ../src/config/default/device.h:
 
@@ -220,6 +224,8 @@ build/default/production/_ext/1171490990/initialization.o: \
 ../src/config/default/toolchain_specifics.h:
 
 ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h:
+
+../src/config/default/peripheral/nvmctrl/plib_nvmctrl.h:
 
 ../src/config/default/peripheral/evsys/plib_evsys.h:
 

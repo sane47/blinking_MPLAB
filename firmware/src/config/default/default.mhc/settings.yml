@@ -5,10 +5,10 @@ frameworkPath: ..\..\harmony3
 processor: ATSAMD21J18A
 projectName: project_iii
 settings:
-  PackageFilter: bsp;core;core_apps_sam_d21_da1;csp;csp_apps_sam_d21_da1;dev_packs;quick_docs;usb
+  PackageFilter: aerospace;audio;aws_cloud;bootloader;bsp;bt;core;core_apps_sam_d21_da1;crypto;cryptoauthlib;cryptoauthlib_apps;csp;csp_apps_sam_d21_da1;gfx;gfx_apps;micrium_ucos3;motor_control;net;quick_docs;touch;usb;x2c
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   TRUSTZONE: 'false'
-  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  CMSISPath: .\dev_packs\arm\CMSIS\5.6.0
   MERGE_STRATEGY: USER_ALL
-  DFPPath: .\dev_packs\Microchip\SAMD21_DFP\3.4.116\samd21a\atdf\ATSAMD21J18A.atdf
+  DFPPath: .\dev_packs\Microchip\SAMD21_DFP\3.3.98\samd21a\atdf\ATSAMD21J18A.atdf
